@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="300" height="300" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(100, 0);
+ctx.lineTo(100, 300);
+ctx.stroke();
+
+var b = document.getElementById("myCanvas");
+var btx = b.getContext("2d");
+btx.beginPath();
+btx.moveTo(200, 0);
+btx.lineTo(200, 300);
+btx.stroke();
+
+var a = document.getElementById("myCanvas");
+var atx = a.getContext("2d");
+atx.beginPath();
+atx.moveTo(0, 100);
+atx.lineTo(300, 100);
+atx.stroke();
+
+var d = document.getElementById("myCanvas");
+var dtx = d.getContext("2d");
+dtx.beginPath();
+dtx.moveTo(0, 200);
+dtx.lineTo(300, 200);
+dtx.stroke();
+
+var e = document.getElementById("myCanvas");
+var etx = e.getContext("2d");
+etx.beginPath();
+etx.moveTo(110, 110);
+etx.lineTo(190, 190);
+etx.stroke();
+
+var f = document.getElementById("myCanvas");
+var ftx = f.getContext("2d");
+ftx.beginPath();
+ftx.moveTo(190, 110);
+ftx.lineTo(110, 190);
+ftx.stroke();
+
+var z = document.getElementById("myCanvas");
+var ztx = z.getContext("2d");
+ztx.beginPath();
+ztx.arc(50, 50, 35, 0, 2 * Math.PI);
+ztx.stroke();
+
+var y = document.getElementById("myCanvas");
+var ytx = y.getContext("2d");
+ytx.beginPath();
+ytx.arc(250, 250, 35, 0, 2 * Math.PI);
+ytx.stroke();
+</script>
+
+
+</body>
+</html>
