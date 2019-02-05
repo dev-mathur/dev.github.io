@@ -1,0 +1,15 @@
+
+#stars{
+  color:white;
+  background-color: blue;
+}
+.red_stripe{
+  background-color: red;
+}
+.white_stripe{
+  background-color: white;
+}
+.red_stripe, .white_stripe{
+  height:33px;
+  width: 700px;
+}
