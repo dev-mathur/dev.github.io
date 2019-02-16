@@ -1,0 +1,18 @@
+.logo{height:40px;
+    width:40px;}
+  
+  .container1{border:1px solid #d8d6d6}
+  
+  .col{
+    border:1px dashed #d8d6d6;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+  }
+  
+  .card
+  {
+      width: 18rem;
+ }
+  
+  
