@@ -1,0 +1,126 @@
+h1 {
+    position: absolute;
+     top: 200px;
+     left: 450px;
+     width: 100%;
+  
+  }
+  header {
+      height: 100px;
+      padding: 0 15px;
+  }
+  #content {
+      width: 290px;
+      float: left;
+      padding: 5px 15px;
+  }
+  
+  #middle {
+      width: 294px; 
+      float: left;
+      padding: 5px 15px;
+      margin: 0px 5px 5px 5px;
+  }
+  
+  #sidebar {
+      width: 270px;
+      padding: 5px 15px;
+      float: left;
+  }
+  footer {
+      clear: both;
+      padding: 0 15px;
+  }
+  @media screen and (max-width: 980px) {
+      
+      table.one {
+    width: 1100px;
+    height:700px;
+    border: 7px solid lightgrey;
+      
+      }
+      #content {
+          width: 41%;
+          padding: 1% 4%;
+    
+      }
+      #middle {
+          width: 41%;
+          padding: 1% 4%;
+          margin: 0px 0px 5px 5px;
+          float: right;
+      }
+      
+      h3
+      {
+          text-align: left;
+      }
+      #sidebar {
+          clear: both;
+          padding: 1% 4%;
+          width: auto;
+          float: none;
+      }
+  
+      header, footer {
+          padding: 1% 4%;
+      }
+  }
+  
+  @media screen and (max-width: 700px){
+  }
+  
+      h1 {
+          font-size: 2em;
+      }
+  
+
+  #sidebar {
+      background: lightgrey;
+    border-radius: 10px;
+    
+  }
+  #content {
+    background-color: lightgrey;
+  }
+  
+  #middle {
+      background-color: lightgrey;
+  }
+  
+  #content, #middle, #sidebar, footer {
+	border: solid 3px lightgrey;
+  margin: 1%;
+ 
+}
+  header, footer {
+    padding: 1% 4%;
+}
+  table.one {
+    width: 950px;
+    height:auto;
+    border: 7px solid lightgrey;
+  }
+  h4 {
+    text-align: left;
+    font-size: 14px;
+  }
+  p.lower {
+  text-align: center;
+  }
+  footer {
+    background: lightgrey;  
+  }
+  tr{  
+      position: relative;
+  }
+  
+  th{
+      border-right-width:medium;
+      border-right-color:transparent;
+      border-right-style:groove;
+      width: 50%;
+  }
+  table.tablethree {
+    font-size: 12px;
+  }
