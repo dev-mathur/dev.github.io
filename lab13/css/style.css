@@ -1,0 +1,19 @@
+body {
+  text-align: left;
+  background-color: beige;
+  color: black;
+}  
+#flightData {
+    border-color: gray;
+    border-width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+td {
+    width: 160px;
+    text-align: left;
+   border-style: dashed;
+   border-color: yellowgreen;
+   border-width: 1px;
+  font color: orange;
+    }
