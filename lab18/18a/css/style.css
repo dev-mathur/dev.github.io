@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+}
+.container {
+  background: black;
+  border: 10px solid #4b2e83;
+  width: 400px;
+}
+.panel {
+  margin: 20px auto;
+  width: 250px;
+}
+input {
+  width: 60%;
+}
+button {
+  width: 38%;
+  text-align: center;
+}
+.control {
+  padding: 3px;
+}
+#uw {
+  background-color: #4b2e83;
+  color: white;
+}
+#uw-gold {
+  background-color: #b7a57a;
+  color: #4b2e83;
+}
+h3 {
+  text-align: center;
+}
+
