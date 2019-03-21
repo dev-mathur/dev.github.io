@@ -1,0 +1,49 @@
+<!-- File: omdb_api.html  -->
+<html>
+
+<head>
+  <title>MovieDatabaseSearch API</title>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="oldscript.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="panel-title">Movie Database Search Engine</div>
+
+        <div class="panel-body">
+          <div class="well">
+            <div class="row">
+
+              <div class="col-sm-3"></div>
+              <div class="col-lg-6">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for a movie title or partial title...">
+                  <span class="input-group-btn"><button class="btn btn-secondary" type="button" id="get-movie-btn">Search</button></span>
+                </div>
+                <div class="col-sm-3"></div>
+              </div>
+            </div>
+            <div class="well" id="movie-grid">
+              <!-- all movie posters and titles go here! -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FOOTER  -->
+      <div class="col-md-12">
+      </div>
+    </div>
+</body>
+
+</html>
