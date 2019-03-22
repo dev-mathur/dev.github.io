@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+}
+.table {
+  text-align: center;
+}
+.panel-title {
+  text-align: center;
+}
+
+.data {
+  text-align: center;
+}
+
+.header {
+}
+#team {
+  text-align: center;
+}
+
+#one {
+  background-color: #981e32;
+  color: #5e6a71;
+}
+
+#two {
+  background-color: #4b2e83;
+  color: #b7a57a;
+}
+
+#three {
+  background-color: #990000;
+  color: lightgray;
+}
+#four {
+  background-color: #154733;
+  color: yellow;
+}
+
+#five {
+  background-color: #081f3f;
+  color: #fcb326;
+}
+
+#six {
+  background-color: #252525;
+  color: #cc4500;
+}

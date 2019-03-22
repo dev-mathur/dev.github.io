@@ -1,0 +1,17 @@
+body {background-color: black;
+}
+
+.container {background-color: black; border: 10px dashed #4b2e83; width: 560px;
+}
+
+.panel {margin: 20px auto; width: 500px;
+}
+
+.panel-title {text-align: center;
+}
+
+#even {background-color: white; color: black;
+}
+
+#odd {background-color: lightgray; color: black;
+}
