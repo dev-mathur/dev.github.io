@@ -1,13 +1,33 @@
 .jumbotron
 {
-    background-image: url("ISA.jpg");
-    background-size: cover;
-    
+    background-color: rgba(255, 255, 255);  
 }
 
+body {
+    /* Location of the image */
+    background-image: url("ISA.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(211, 211, 211, 0.6);
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+    
+    /* text*/
+    color: black;
+  }
 a
 {
-    color: white;
+    color: black;
 }
 
 .grid, img {
@@ -23,4 +43,27 @@ h3
 .footer {
     width: 100%;
     text-align: center;
+}
+
+#projectsHeader
+{
+    text-align: center;
+}
+
+.card-body
+{
+    text-align: center;
+}
+
+p{
+    color: black;
+}
+
+body{min-height:200vh;}
+.navbar-expand-lg{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-expand-lg.scrolled{
+  background: white;
 }
