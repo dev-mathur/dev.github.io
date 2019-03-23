@@ -5,7 +5,7 @@ $(window).scroll(function(){
 
 $(document).ready(function(){
 	$("p").mouseover(function(){
-	  $("p").css("color", "red");
+	  $("p").css("color", "gray");
 	});
 	$("p").mouseout(function(){
 	  $("p").css("color", "black");
@@ -481,7 +481,7 @@ function handleEscKey() {
 
 function handleTyping () {
   $(".element").typed({
-    strings: ["a Software Developer", "a Designer", "an Project Manager"],
+    strings: ["a Software Developer", "a Designer", "a Project Manager"],
     typeSpeed: 50,
     starDelay: 200,
     backDelay: 600,
