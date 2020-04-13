@@ -1,0 +1,53 @@
+#home {
+    padding-top: 5%;
+    background-color: white;
+}
+
+#home h2 {
+    font-size: 300%;
+}
+
+#home h4 {
+    color: black;
+}
+nav .container .navbar-logo {
+    width: 22px;
+    height: 22px;
+}
+
+#bannerImg {
+    max-width:110%;
+    max-height:110%;
+}
+
+#services {
+    background-color: blueviolet;
+    color: white;
+}
+
+#services img {
+    width: 200px;
+    height: 200px;
+}
+
+.col-lg-12 h5{
+    color: white;
+}
+
+#feature {
+    background-color: white;
+}
+
+#feature img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#contact {
+    background-color: navy;
+    color: white;
+}
+
+#footer {
+    background-color: pink;
+}
