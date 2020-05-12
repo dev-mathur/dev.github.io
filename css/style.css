@@ -1,165 +1,29 @@
-.jumbotron
-{
-    background-color: rgba(255, 255, 255);  
-    text-align: center;
-}
-
 body {
-    /* Location of the image */
-    background-image: url("https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
-    box-shadow: inset 0 0 0 1000px rgba(211, 211, 211, 0.4);
-    
-    /* Background image is centered vertically and horizontally at all times */
-    background-position: center center;
-    
-    /* Background image doesn't tile */
-    background-repeat: no-repeat;
-    
-    /* Background image is fixed in the viewport so that it doesn't move when 
-       the content's height is greater than the image's height */
-    background-attachment: fixed;
-    
-    /* This is what makes the background image rescale based
-       on the container's size */
-    background-size: cover;
-    
-    /* text*/
-    color: black;
-  }
-a
-{
-    color: black;
-}
-
-.grid, img {
-    width: 90%;
-	float: initial;
-}
-
-h3
-{
-    size: 30%;
-}
-
-.footer-dark {
-    padding:50px 0;
-    color:#f0f9ff;
-    background-color:#282d32;
-  }
-  
-  .footer-dark h3 {
-    margin-top:0;
-    margin-bottom:12px;
-    font-weight:bold;
-    font-size:16px;
-  }
-  
-  .footer-dark ul {
-    padding:0;
-    list-style:none;
-    line-height:1.6;
-    font-size:14px;
-    margin-bottom:0;
-  }
-  
-  .footer-dark ul a {
-    color: white;
-    text-decoration:none;
-    opacity:0.6;
-  }
-  
-  .footer-dark ul a:hover {
-    opacity:0.8;
-  }
-  
-  @media (max-width:767px) {
-    .footer-dark .item:not(.social) {
-      text-align:center;
-      padding-bottom:20px;
-    }
-  }
-  
-  .footer-dark .item.text {
-    margin-bottom:36px;
-  }
-  
-  @media (max-width:767px) {
-    .footer-dark .item.text {
-      margin-bottom:0;
-    }
-  }
-  
-  .footer-dark .item.text p {
-    opacity:0.6;
-    margin-bottom:0;
-  }
-  
-  .footer-dark .item.social {
-    text-align:center;
-  }
-  
-  @media (max-width:991px) {
-    .footer-dark .item.social {
-      text-align:center;
-      margin-top:20px;
-    }
-  }
-  
-  .footer-dark .item.social > a {
-    font-size:20px;
-    width:36px;
-    height:36px;
-    line-height:36px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-    margin:0 8px;
-    color:#fff;
-    opacity:0.75;
-  }
-  
-  .footer-dark .item.social > a:hover {
-    opacity:0.9;
-  }
-  
-  .footer-dark .copyright {
-    text-align:center;
-    padding-top:24px;
-    opacity:0.3;
-    font-size:13px;
-    margin-bottom:0;
-  }
-  
-#projectsHeader
-{
-    text-align: center;
-}
-
-.card
-{
-    width: 100%;
-}
-
-.card-body
-{
-    text-align: center;
-}
-
-p{
-    color: black;
-}
-
-body{min-height:200vh;}
-.navbar-expand-lg{
-  transition:500ms ease;
-  background:transparent;
-}
-.navbar-expand-lg.scrolled{
-  background: white;
-}
-
-a
-{
+  background-color: black;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: left;
+  font-size: 410%;
+}
+
+p {
+  font-size: 170%;
+  color: gray;
+  line-height: 1.8;
+}
+
+.customBlock {
+  margin-top: 10%;
+}
+
+.footerStuff p{
+  font-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
 }
