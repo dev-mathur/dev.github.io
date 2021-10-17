@@ -40,3 +40,7 @@ table {
 li {
   color: gray;
 }
+
+.customList li{
+  color: white;
+}
