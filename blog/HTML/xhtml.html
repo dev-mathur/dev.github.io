@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicons-->
+    <link rel="icon" type="image/png" href=""/>
+    <title>XHTML/CSS</title>
+    <a href="forms.html">Link to forms file</a>
+    <style>
+        h1 {
+            background-color: blue;
+            color: white;
+        }
+        .font-red {
+            color: red;
+        }
+        #unique {
+            border: 5px solid black;
+        }
+        .bg-blue {background-color: blue;}
+        .bg-yellow{background-color: yellow;}
+    </style>
+</head>
+<body>
+    <h1>
+        XHTML/CSS
+    </h1>
+    <!--XHTML - Extensible HTML; has self closing tag (<br/>) instead of <bar></br>-->
+        <div style="border: 1px solid red; background-color:green">
+            This is a div
+        </div>
+        <div class="font-red" id="unique">
+            Div #1
+        </div>
+        <div class="font-red" id="">
+            Div #2
+        </div>
+        <div class="font-red bg-blue" id="">
+            Div #3
+        </div>
+        <div class="font-red bg-yellow" id="">
+            Div #4
+        </div>
+        <div>
+            <p>
+                This is going to look like regular boring text<br/>
+                llllllllllllllllllllllllllllllllllllllllllllll<br/>
+                <code>computer_code.html</code>
+                <samp>10100110101 10 11 101010 101 1011 0101010 10</samp><br/>
+                To copy and paste you would try <kbd>ctrl</kbd> + <kbd>c</kbd><br/>
+                This is a var called <var>x</var><br/>
+                <hr/>
+                <!--pre tag means that text is sensitive to whitespace-->
+                <pre>
+                    This is line 1
+
+                    This is line 3
+
+                    This is line 5
+                </pre>
+                <b>Bold</b> vs <br/>
+                <strong>Bold</strong>
+                <hr>
+                <i>Italic</i> vs <br/>
+                <em>Italic</em>
+            </p>
+            <!--Meta tags - helps in SEO, talks abt what your page is abt, what is the keywords, etc-->
+            <meta name="keywords" content="your, tags">
+
+            <!--HTML entities-->
+            <div>
+                <ul>
+                    <li>Text in front &bull;&bull;&bull; Bullet Point</li>
+                    <li>&copy; Copyright symbol</li>
+                    <li>&amp; This is the AND symbol</li>
+                    <li>&gt; &amp; &lt;</li>
+                    <li>&rarr; This is a right arrow</li>
+                    <li>&larr; This is a left arrow</li>
+                    <li>&raquo; Double right chevrons</li>
+                    <li>&laquo; Double left chevrons</li>
+                </ul>
+            </div>
+        </div>
+</body>
+</html>

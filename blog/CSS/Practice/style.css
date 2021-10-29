@@ -1,0 +1,106 @@
+/* Width and Height of box model*/
+p {
+    width: 200px;
+    height: 400px;
+}
+
+.p1 {
+    background-color: lightcoral;
+    border: 5px black solid;
+    height: 500px;
+    /* Incorporate border into height and width calculation*/
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.p2 {
+    background-color: lightblue;
+    border: 3px red dashed;
+    border-left-width: 8px;
+    /* make circles */
+    border-radius: 10%;
+    margin-top: 0px;;
+}
+
+button {
+    /* All 4 sides: padding: 20px;*/
+    /* Vertical Horizontal: padding: 5px 10px;*/
+    /* top horizontal bottom: padding: 5px 10px 10px;*/
+    /* top right bottom left: padding: 5px 10px 10px 0 px;*/
+}
+
+/* Space outside of border, between element and other elements */
+h1 {
+    background-color: lightgreen;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Display element: - sets whether element is treated as block or inline element */
+h1 {
+    display: none;
+}
+
+/* CSS units: ems - relative to parent class font weight
+rems - relative to root font weight*/
+
+/* rgba - (red, green, blue, alpha)
+alpha is for the opacity from 0 to 1
+0 is not transparent, 1 is transparent */
+
+/* Positioning*/
+div {
+    width: 100px;
+    height: 100px;
+    background-color: navy;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#middle {
+    background-color: olivedrab;
+    
+}
+
+/* No change in position */
+#static #middle {
+    position: static;
+    top: 100px;
+}
+
+/* Position relative to doc */
+#relative #middle {
+    position:relative;
+    top: 50px;
+    left: 50px;
+}
+
+/* Position relative to parent class (body) */
+#absolute #middle {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+/*Position stays in place */
+#fixed #middle {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+/*CSS transform*/
+#circle {
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    /*Key to transition*/
+    transition: 1s;
+}
+
+#circle:hover {
+    background-color: cyan;
+    border-radius: 50%;
+}
