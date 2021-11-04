@@ -1,100 +1,170 @@
 <!DOCTYPE html>
-    <head>
-        <title>Dev Mathur</title>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/css/style.css">
-      </head>
-    <body>
-      <br>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/newstyle.css">
+  <!--Title-->
+  <title>Dev Mathur</title>
+</head>
+<body>
+  <!--Navbar-->
+  <section id="header" class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="#">Dev Mathur</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link mx-2" href="#">About Me</a>
+          <a class="nav-item nav-link mx-2" href="#">Projects</a>
+          <a class="nav-item nav-link mx-2 href="#">Blog</a>
+          <a class="nav-item nav-link mx-2" href="#">Info</a>
+        </div>
+      </div>
+    </nav>
+  <!--Header-->
+    <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
-        <div class="customBlock"> 
-        </div>
-        <h1>Hi. My name is Dev</h1>
-        <br>
-        <p>I'm a Graduate student in Information Management currently living in Seattle, Washington. Just recieved my Bachelor's in Applied Computing with a minor in Business. I spend my time learning about anything and everything. Whether it is about new products launching in the market day by day, upcoming technologies that are being utilized by many developers, or even wine, I like to learn more about them.</p>
-        <br>
-        <p>At the moment, I have been exploring the Javascript stack a lot. Utilizing ReactJS to build beautiful front end components, writing a backend infrastructure in Nodejs, while communicating with a mongoDB database is very fun to do. I have also been learning more about API development in REST, and eventually want to learn about GraphQL.</p>
-        <br>
-        <p>I do like to build great teams, and build new products. Currently working on one called Amido. More on that coming up soon.</p>
-        <br>
-        <p>My goal is eventually either start my own company that will build products to fill great gaps in today's market, or work in a Product role for an organization that I believe in.</p>
-        <br>
-        <p>Check out my projects below. This will be a growing list.</p>
-        <a class="btn btn-primary" href="/blog.html" role="button">Link to my personal blog</a>
-        <br>
-        <br>
-        <!-- Cards to display projects-->
-        <div>
-        <h2>Tiranga Front End Rework</h2>
-        <img src="/projectimg/tirangaSite.png">
-        <br>
-        <br>
-        <p>Tiranga is a social nonprofit aimed to unite the Indian community of the Greater Seattle area together, and to encourage them to express their cultural background. With their website being outdated, I reworked their front end to make it look more modern, and accessible for users.</p>
-        <p>Technologies used: HTML, MaterializeCSS, Javascript</p>
-        <a class="btn btn-primary" href="http://tirangabothell.org/" role="button">Link to website</a>
+        <h1>DEV/MATHUR</h1>
+        <h1>TECHNOLOGY ENTHUSIAST</h1>
+        <h1>TWITTER, INSTAGRAM INFLUENCER</h1>
       </div>
-        <br>
-        <br>
-        <div>
-          <h2>Amido</h2>
-          <img src="/projectimg/AmidoHomePage.png">
-          <br>
-          <br>
-          <p>NOTE: THIS IS A WORK IN PROGRESS. Amido is a professional platform that connects organizations with other organizations to build great products for social good.</p>
-          <p>Technologies used: HTML, ReactJS, Express, NodeJS, MySQL, Google Cloud Platform</p>
-          <a class="btn btn-primary" href="/ProductLandingPage/index.html" role="button">Link to website</a>
-        </div>
-        <br>
-        <br>
-        <div>
-          <h2>Personal Blog</h2>
-          <img src="/projectimg/thoughtsblog.png">
-          <br>
-          <br>
-          <p>Built my own personal blog from scratch which serves as a platform to discuss my learnings, and opinions on Business, Technology, Wine, etc.</p>
-          <p>Technologies used: HTML, Bootstrap, ReactJS, NodeJS, Express, MongoDB</p>
-          <a class="btn btn-primary" href="https://fulllstackthoughts.herokuapp.com/" role="button">Link to app</a>
-        </div>
-        <br>
-        <br>
-        <div>
-          <h2>UW Parking Database rework</h2>
-          <img src="/projectimg/parkingDB.png">
-          <br>
-          <br>
-          <p>Built a more modern application that queries for patrons, vehicles, citations, and more information involved with UW's parking department.</p>
-          <p>Technologies used: PUG, NodeJS, Express, MySQL, AWS</p>
-          <a class="btn btn-primary" href="https://github.com/coxcharlie1/UWB-Database-Systems" role="button">Link to repository</a>
-        </div>
-        <br>
-        <br>
-        <div>
-          <h2>Web Kanban Board</h2>
-          <img src="/projectimg/kanbanboard.png">
-          <br>
-          <br>
-          <p>Collaborated with a team to build a web based Kanban board for students to easily manage their tasks. This was built for a university hackathon.</p>
-          <p>Technologies used: HTML, ReactJS, LocalStorage</p>
-          <a class="btn btn-primary" href="https://github.com/rayyanh/kanban-app" role="button">Link to repository</a>
-        </div>
-        <br>
-        <br>
-        <div>
-          <h2>MovieDB Search Application</h2>
-          <img src="/projectimg/movieDB.png">
-          <br>
-          <br>
-          <p>Built an easy to use application that uses the movieDB API to request a list of movies related to what the user has searched for.</p>
-          <p>Technologies used: HTML, Bootstrap, jQuery</p>
-          <a class="btn btn-primary" href="/FINALEXAM/index.html" role="button">Link to app</a>
-        </div>
-        <div class="customBlock"></div>
-        <div class="footerStuff">
-          <a class="btn btn-primary" href="/kreatrr/index.html" role="button">Link to repository</a>
-          <p>2021 Dev Mathur</p>
+    </div>
+  </section>
+  <!--About me-->
+  <section id="about-me">
+    <div class="row container-fluid align-items-center">
+      <div class="col-md-6 py-5">
+        <img src="/image/dev.jpeg" class="img-fluid rounded mx-auto d-block" alt="">
+      </div>
+      <div class="col-md-6 pt-3 text-md-left text-center">
+        <h2>About Me</h2>
+        <p>I am an upcoming graduate at the University of Washington
+          Studying Information Management with a specialization in 
+          Business Intelligence. I completed my undergraduate studies
+          At UW in Applied Computer Science.
+        </p>
+        <p>I have a deep interest in building technologies to best serve 
+            others. I have been in multiple roles in technology such as 
+            Software Development, Data Science, and Program 
+            Management. 
+        </p>
+        <p>
+          Other than technology, I love to build initiatives that help and 
+          Benefit communities. This comes from my deep experience
+          In non-profit management, and starting a university wide
+          Cultural organization that has scaled to over 110 members
+          In only 3 years.
+        </p>
+        <p>
+          I am currently on the job hunt! If you are hiring, please look 
+          Through my resume, and projects below and do not hesitate 
+          To reach out. I will be graduating on December 2021.          
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--Projects-->
+  <section id="projects">
+    <h2 class="text-center py-5">My Projects</h2>
+    <div class="row mx-auto pb-4">
+      <div class="col-md-4 mx-auto">
+        <div class="card bg-dark">
+          <img class="card-img-top" src="/projectimg/tirangaSite.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Tiranga Website</h5>
+            <p class="card-text">Tiranga is a social nonprofit for the Indian community of Bothell, WA. With their website being outdated, I reworked their 
+              front end to make it look more modern, and accessible 
+              for users.</p>
+              <p>Tech Stack: HTML, CSS, Bootstrap</p>
+          </div>
         </div>
       </div>
-    </body>
+      <div class="col-md-4 mx-auto">
+        <div class="card bg-dark">
+          <img class="card-img-top" src="/projectimg/buddinggeniussite.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Budding Genius Website</h5>
+            <p class="card-text">Budding Genius is an Educational company located in Bothell Washington. I performed their migration from Wordpress + Hostgator to a more modern technology stack.</p>
+            <p>Tech Stack: HTML, CSS, Bootstrap</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-auto pb-4">
+        <div class="col-md-4 mx-auto">
+          <div class="card bg-dark">
+            <img class="card-img-top" src="/projectimg/AmidoHomePage.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Amido</h5>
+              <p class="card-text">Amido is a professional platform that connects organizations with other organizations to build great products for social good.</p>
+              <p>Tech Stack: HTML, CSS, Bootstrap, ReactJS, NodeJS, Express, MongoDB</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mx-auto">
+          <div class="card bg-dark">
+            <img class="card-img-top" src="/projectimg/kanbanboard.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Web Kanban Board</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>Tech Stack: HTML, CSS, ReactJS, LocalStorage</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!--Blog-->
+  <section id="blog">
+    <h2 class="pt-5 pb-4 container">Blog</h2>
+    <table class=" container table table-hover">
+      <thead>
+        <tr>
+          <th scope="col"><h3>Date</h3></th>
+          <th scope="col"><h3>Article</h3></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><h4>October 15th, 2021</h4></th>
+          <td><h4>This is my first Article</h4></td>
+        </tr>
+        <tr>
+          <th scope="row"><h4>October 16th, 2021</h4></th>
+          <td><h4>My Roadmap moving forward</h4></td>
+        </tr>
+        <tr>
+          <th scope="row"><h4>November 3rd, 2021</h4></th>
+          <td><h4>My Progress so far</h4></td>
+        </tr>
+        <tr>
+          <th scope="row"><h4>TBD...</h4></th>
+          <td><h4  class="pb-4">Coming Soon!</h4></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <!--Footer-->
+  <footer class="footer py-3">
+    <div class="container">
+      <p>Dev Mathur 2021</p>
+    </div>
+  </footer>
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
 </html>

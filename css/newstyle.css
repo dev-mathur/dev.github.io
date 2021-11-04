@@ -1,0 +1,68 @@
+body {
+    background-color: #1A1A1A;
+    color: #EFEFEF;
+}
+
+#header {
+    background-image: url(/image/fireworks.jpg);
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+#header h1 {
+    font-size: 3.5rem;
+}
+
+#mainNavbar .navbar-brand {
+    color: 2.5rem;
+}
+
+#mainNavbar .nav-link {
+    color: 1.5rem;
+}
+
+.jumbotron {
+    background-color:transparent !important; 
+}
+
+#about-me {
+    background-color: #EFEFEF ;
+    color: #1A1A1A;
+}
+
+#about-me img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+#about-me p {
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+#about-me h2 {
+    font-size: 3.5rem;
+}
+
+#projects h2 {
+    font-size: 3.5rem;
+}
+
+#projects .row {
+    align-items: center;
+}
+
+#blog {
+    background-color: #EFEFEF ;
+    color: #1A1A1A;
+}
+
+#blog h2 {
+    font-size: 3.5rem;
+}
+
+ul {
+    list-style-type: none;
+    }
+   
